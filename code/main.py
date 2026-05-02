@@ -212,6 +212,6 @@ if __name__ == "__main__":
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
     input_path = os.path.join(BASE_DIR, "support_tickets", "support_tickets.csv")
-    output_path = os.path.join(BASE_DIR, "data", "final_output.csv")
+    output_path = os.path.join(BASE_DIR, "support_tickets", "output.csv")
 
     run_pipeline(input_file=input_path, output_file=output_path)
